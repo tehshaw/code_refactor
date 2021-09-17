@@ -17,13 +17,14 @@ p {
     font-size: 16px;
 }
 
+/* define space to allow aside to appear to the right of the main elements of the page  */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-
+/* provide display and size attributes for the three highlighted points in the main  */
 main section{
     margin-bottom: 20px;
     padding: 50px;
@@ -33,11 +34,14 @@ main section{
     color: #ffffff;
 }
 
+/* constrain the images in the main so they are within the defined sections  */
 main img{
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
+
+
 
 main h2{
     margin-bottom: 20px;
@@ -88,6 +92,7 @@ footer h2 {
     margin-left: 25px;
 }
 
+/* this class is for the main background image when the site loads */
 .hero {
     height: 800px;
     width: 100%;
@@ -130,5 +135,9 @@ footer h2 {
     text-align: center;
 }
 
-
+/* middle image in the main section is to appear on the right, 
+this overrides the styling defined in MAIN IMG to float: left */
+#online-reputation-management img{
+    float: right;
+}
 
